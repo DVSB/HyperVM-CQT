@@ -22,6 +22,8 @@ http://hypervm.support/display/installation
 # Contributing
 
 Please have a look at HyperVM-Com-QuadTech.net mailing lists and bug tracker. There is forum as well available at: http://hypervm.center
+We would like to thank our server sponsors for further development with their servers.
+Server - Sponsoring by: https://avoro.eu & http://disker.net
 
 # Licensing - AGPLv3
 
