@@ -15,13 +15,13 @@ if ! [ -f /usr/local/lxlabs/hypervm/bin/raw_update.phps ]; then
 fi
 
 echo ""
-echo "HyperVM Upgrade to HyperVM-NG powered by HyperVM-NG team"
+echo "HyperVM Upgrade to Com-QuadTech/HyperVM-CQT powered by Com-QuadTech/HyperVM-CQT team"
 echo "============================================================"
 echo "Current version: $(sh /script/version)"
 echo ""
 pause "Hit [ENTER] to continue or ctrl-c to exit"
 echo ""
-wget --no-check-certificate https://raw.githubusercontent.com/hypervm-ng/hypervm-ng/master/hypervm/bin/raw_update.phps -O /usr/local/lxlabs/hypervm/bin/raw_update.phps
+wget --no-check-certificate https://raw.githubusercontent.com/Com-QuadTech/HyperVM-CQT/master/hypervm/bin/raw_update.phps -O /usr/local/lxlabs/hypervm/bin/raw_update.phps
 sh /script/raw-update
 sh /script/upcp
 echo ""
