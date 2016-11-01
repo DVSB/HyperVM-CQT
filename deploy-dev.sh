@@ -99,39 +99,39 @@ case $1 in
 		# Clone from GitHub the last version using git transport (no http or https)
 		echo "Installing branch hypervm/master"
 		mkdir -p ${HYPERVM_PATH}
-		git clone https://github.com/hypervm-ng/hypervm-ng.git ${HYPERVM_PATH}
+		git clone git@github.com:Com-QuadTech/HyperVM-CQT.git ${HYPERVM_PATH}
 		cd ${HYPERVM_PATH}
 		git checkout master
 		cd ${HYPERVM_PATH}/hypervm-install
 		sh ./make-distribution.sh
 		cd ${HYPERVM_PATH}/hypervm
 		sh ./make-development.sh
-		printf "Done.\nInstall HyperVM-NG:\ncd ${HYPERVM_PATH}/hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
+		printf "Done.\nInstall HyperVM-CQT:\ncd ${HYPERVM_PATH}/hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
 		;;
 	legacy )
 		# Clone from GitHub the last version using git transport (no http or https)
 		echo "Installing branch hypervm/legacy"
 		mkdir -p ${HYPERVM_PATH}
-		git clone https://github.com/hypervm-ng/hypervm-ng.git ${HYPERVM_PATH}
+		git clone git@github.com:Com-QuadTech/HyperVM-CQT.git ${HYPERVM_PATH}
 		cd ${HYPERVM_PATH}
 		git checkout legacy
 		cd ${HYPERVM_PATH}/hypervm-install
 		sh ./make-distribution.sh
 		cd ${HYPERVM_PATH}/hypervm
 		sh ./make-development.sh
-		printf "Done.\nInstall HyperVM-NG:\ncd ${HYPERVM_PATH}/hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
+		printf "Done.\nInstall HyperVM-CQT:\ncd ${HYPERVM_PATH}/hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
 		;;
 	dev )
 		# Clone from GitHub the last version using git transport (no http or https)
 		echo "Installing branch hypervm/dev"
-		git clone https://github.com/hypervm-ng/hypervm-ng.git ${HYPERVM_PATH}
+		git clone git@github.com:Com-QuadTech/HyperVM-CQT.git ${HYPERVM_PATH}
 		cd ${HYPERVM_PATH}
 		git checkout dev -f
 		cd ${HYPERVM_PATH}/hypervm-install
 		sh ./make-distribution.sh
 		cd ${HYPERVM_PATH}/hypervm
 		sh ./make-development.sh
-		printf "Done.\nInstall HyperVM-NG:\ncd ${HYPERVM_PATH}/hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
+		printf "Done.\nInstall HyperVM-CQT:\ncd ${HYPERVM_PATH}/hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
 		;;
 	local )
 		# Clone from GitHub the last version using git transport (no http or https)
@@ -145,7 +145,7 @@ case $1 in
 		cd ..//hypervm
 		sh ./make-development.sh
 		cp hypervm-current.zip ${HYPERVM_PATH}/hypervm
-		printf "Done.\nInstall HyperVM-NG:\ncd hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
+		printf "Done.\nInstall HyperVM-CQT:\ncd hypervm-install/hypervm-linux/\nsh hypervm-install-[master|slave].sh with args\n"
 		;;
 
 	*   )
