@@ -17,15 +17,15 @@ and much, much more.
 
 Just follow this simple guide:
 
-http://wiki.hypervm-ng.org/display/DOCS/Installation
+http://hypervm.support/display/installation
 
 # Contributing
 
-Please have a look at HyperVM-NG's mailing lists and bug tracker. There is forum as well available at: http://community.hypervm-ng.org
+Please have a look at HyperVM-Com-QuadTech.net mailing lists and bug tracker. There is forum as well available at: http://hypervm.center
 
 # Licensing - AGPLv3
 
-    HyperVM-NG, Server Virtualization GUI for OpenVZ and Xen
+    HyperVM-Com-QuadTech, Server Virtualization GUI for OpenVZ and Xen
 
     Copyright (C) 2000-2009	LxLabs
     Copyright (C) 2009-2013	LxCenter
