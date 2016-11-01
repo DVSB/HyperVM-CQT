@@ -3,6 +3,9 @@
 #
 #    Copyright (C) 2000-2009	LxLabs
 #    Copyright (C) 2009-2014	LxCenter
+#    Copyright © 2009-2017 Com-QuadTech http://com-quadtech.net | Developer
+#    Server - Sponsoring by:DEVELOPMENT SERVER https://avoro.eu & FORUM / WEBSITE SERVER http://disker.net
+#
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
