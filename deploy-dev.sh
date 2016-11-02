@@ -90,7 +90,7 @@ require_root
 
 require_requirements
 
-echo 'Installing HyperVM-NG development version.'
+echo 'Installing HyperVM-CQT development version.'
 
 if which git >/dev/null; then
 	echo 'GIT support detected.'
