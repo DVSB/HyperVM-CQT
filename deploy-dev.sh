@@ -3,7 +3,9 @@
 #
 #    Copyright (C) 2000-2009	LxLabs
 #    Copyright (C) 2009-2014	LxCenter
+#
 #    Copyright © 2009-2017 Com-QuadTech http://com-quadtech.net | Developer
+#
 #    Server - Sponsoring by:DEVELOPMENT SERVER https://avoro.eu & FORUM / WEBSITE SERVER http://disker.net
 #
 #
